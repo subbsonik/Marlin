@@ -29,6 +29,10 @@
   #define BOARD_CUSTOM_BUILD_FLAGS -DLPC_PINCFG_UART3_P4_28
 #endif
 
+#define MNV_SKRV1_4_256K_END 0x7FFF //32Kb
+//#define MNV_SKRV1_4_512K_END 0xFFFF //64Kb
+#define I2C_EEPROM                        
+#define E2END MNV_SKRV1_4_256K_END
 //
 // SD Connection
 //
