@@ -23,6 +23,7 @@
 
 #define BOARD_INFO_NAME "BTT SKR V1.4 TURBO"
 #define SKR_HAS_LPC1769
+#define I2C_EEPROM
 
 //
 // Include SKR 1.4 pins
